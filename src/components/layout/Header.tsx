@@ -53,7 +53,8 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <div className="mr-2 text-primary-700">
-             <img src="/logo.png" alt="Logo Lufer" className="h-auto max-h-32 w-auto" />
+             <img src="/logo.png"
+              alt="Logo Lufer" className="h-auto max-h-32 w-auto" />
             </div>
           </Link>
 

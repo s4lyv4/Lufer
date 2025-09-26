@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter, Linkedin, Mail, Phone, MapPin, ArrowRight } from 'lucide-react';
 
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-primary-800 text-white pt-16 pb-8">
@@ -11,7 +12,6 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-6">
               <img src="/logo.png" alt="Logo Lufer" className="h-20 rounded-full mr-4" />
-¿
             </div>
             <p className="text-primary-100 mb-6">
                Expertos en mangueras y repuestos industriales. Calidad, confianza y soluciones a tu medida.
