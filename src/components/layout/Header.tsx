@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Home, Info, Phone} from 'lucide-react';
 import classNames from 'classnames';
+import logo from '../../assets/logo.png';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,11 +31,12 @@ const Header: React.FC = () => {
   }, [location]);
 
   const navItems = [
-    { path: '/', label: 'Inicio', icon: <Home className="w-5 h-5" /> },
-    { path: '/properties', label: 'Productos', icon: <img className="w-5 h-5" /> },
-    { path: '/about', label: 'Nosotros', icon: <Info className="w-5 h-5" /> },
-    { path: '/contact', label: 'Contacto', icon: <Phone className="w-5 h-5" /> },
-  ];
+  { path: '/', label: 'Inicio', icon: <Home className="w-5 h-5" /> },
+  { path: '/properties', label: 'Productos', icon: <Info className="w-5 h-5" /> }, // por ejemplo
+  { path: '/about', label: 'Nosotros', icon: <Info className="w-5 h-5" /> },
+  { path: '/contact', label: 'Contacto', icon: <Phone className="w-5 h-5" /> },
+];
+
 
   return (
     <header
@@ -53,8 +55,8 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center">
             <div className="mr-2 text-primary-700">
               <img
-                src="src\assets\logo.png" 
-                alt="Lufer Logo"
+                src={logo}
+                alt="logo"
                 className="h-auto max-h-32 w-auto"
               />
             </div>
