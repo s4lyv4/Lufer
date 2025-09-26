@@ -31,9 +31,9 @@ const Header: React.FC = () => {
 
   const navItems = [
   { path: '/', label: 'Inicio', icon: <Home className="w-5 h-5" /> },
-  { path: '/properties', label: 'Productos', icon: <Info className="w-5 h-5" /> }, // por ejemplo
-  { path: '/about', label: 'Nosotros', icon: <Info className="w-5 h-5" /> },
-  { path: '/contact', label: 'Contacto', icon: <Phone className="w-5 h-5" /> },
+  { path: '/productos', label: 'Productos', icon: <Info className="w-5 h-5" /> }, // por ejemplo
+  { path: '/nosotros', label: 'Nosotros', icon: <Info className="w-5 h-5" /> },
+  { path: '/contacto', label: 'Contacto', icon: <Phone className="w-5 h-5" /> },
 ];
 
 
@@ -80,7 +80,7 @@ const Header: React.FC = () => {
           </nav>
 
           <div className="hidden lg:flex items-center space-x-4">
-            <Link to="/contact" className="btn btn-primary">
+            <Link to="/contacto" className="btn btn-primary">
               Contáctanos
             </Link>
           </div>
@@ -130,7 +130,7 @@ const Header: React.FC = () => {
               </ul>
             </nav>
             <div className="py-4 space-y-3">
-              <Link to="/contact" className="btn btn-primary w-full">
+              <Link to="/contacto" className="btn btn-primary w-full">
                 Contáctanos
               </Link>
             </div>

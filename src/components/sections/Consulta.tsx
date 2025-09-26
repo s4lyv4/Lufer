@@ -50,10 +50,10 @@ const CallToAction: React.FC = () => {
               No esperes más y solicita una consulta. Nuestro equipo de expertos está listo para ayudarte en cada paso del proceso.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/properties" className="btn bg-white text-accent-600 hover:bg-accent-50">
+              <Link to="/productos" className="btn bg-white text-accent-600 hover:bg-accent-50">
                 Ver Productos
               </Link>
-              <Link to="/contact" className="btn bg-accent-600 text-white hover:bg-accent-700 border border-accent-400">
+              <Link to="/contacto" className="btn bg-accent-600 text-white hover:bg-accent-700 border border-accent-400">
                 Contáctanos
               </Link>
             </div>

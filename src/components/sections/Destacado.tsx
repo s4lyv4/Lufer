@@ -25,7 +25,7 @@ const FeaturedProperties: React.FC<FeaturedPropertiesProps> = ({ properties }) =
             </p>
           </div>
           <Link 
-            to="/properties" 
+            to="/productos" 
             className="hidden md:flex items-center text-primary-600 hover:text-primary-700 font-semibold transition-colors"
           >
             <span>Ver todos los productos</span>
@@ -41,7 +41,7 @@ const FeaturedProperties: React.FC<FeaturedPropertiesProps> = ({ properties }) =
 
         <div className="mt-10 text-center md:hidden">
           <Link 
-            to="/properties" 
+            to="/productos" 
             className="btn btn-primary"
           >
             Ver todos los productos

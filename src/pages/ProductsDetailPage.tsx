@@ -46,7 +46,7 @@ const PropertyDetailPage: React.FC = () => {
         <p className="text-neutral-600 mb-8">
           Lo sentimos, el producto que estás buscando no existe o ha sido eliminado.
         </p>
-        <Link to="/properties" className="btn btn-primary">
+        <Link to="/productos" className="btn btn-primary">
           <ArrowLeft className="w-5 h-5 mr-2" />
           Volver a productos
         </Link>
@@ -137,7 +137,7 @@ const PropertyDetailPage: React.FC = () => {
       <div className="container-custom py-8">
         {/* Back button */}
         <div className="mb-6">
-          <Link to="/properties" className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium">
+          <Link to="/productos" className="inline-flex items-center text-primary-600 hover:text-primary-700 font-medium">
             <ArrowLeft className="w-5 h-5 mr-2" />
             Volver a productos
           </Link>
@@ -313,11 +313,11 @@ const PropertyDetailPage: React.FC = () => {
                   p.productType === property.productType &&
                   p.listingType === property.listingType
                 )
-                .slice(0, 4) // puedes aumentar la cantidad
+                .slice(0, 4) 
                 .map(similarProperty => (
                   <Link 
                     key={similarProperty.id}
-                    to={`/properties/${similarProperty.id}`}
+                    to={`/productos/${similarProperty.id}`}
                     className="flex flex-col items-center p-4 rounded-lg hover:bg-neutral-50 transition-transform transform hover:scale-105 hover:shadow-md"
                   >
                     <div className="w-60 h-40 flex-shrink-0 rounded-md overflow-hidden">

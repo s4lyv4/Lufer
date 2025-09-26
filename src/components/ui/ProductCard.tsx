@@ -18,7 +18,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   return (
     <div className="card card-hover group">
       <div className="relative overflow-hidden">
-        <Link to={`/properties/${id}`}>
+        <Link to={`/productos/${id}`}>
           <div className="h-64 overflow-hidden">
             <img
               src={mainImage}
@@ -40,7 +40,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
 
       <div className="p-5">
         <div className="mb-3">
-          <Link to={`/properties/${id}`} className="hover:text-primary-600 transition-colors">
+          <Link to={`/productos/${id}`} className="hover:text-primary-600 transition-colors">
             <h3 className="text-xl font-serif font-semibold line-clamp-1">{title}</h3>
           </Link>
           <div className="flex items-center text-neutral-500 mt-1">

@@ -4,7 +4,7 @@ import { Home, ArrowLeft } from 'lucide-react';
 
 const NotFoundPage: React.FC = () => {
   useEffect(() => {
-    document.title = 'Página no encontrada | LuFer';
+    document.title = 'Página no encontrada | Lufer';
   }, []);
 
   return (

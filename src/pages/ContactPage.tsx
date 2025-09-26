@@ -8,7 +8,7 @@ const ContactPage: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
 
   useEffect(() => {
-    document.title = 'Contacto | Inmo-Visión';
+    document.title = 'Contacto | Lufer';
     window.scrollTo(0, 0);
   }, []);
 
