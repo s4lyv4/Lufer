@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Home, Info, Phone} from 'lucide-react';
 import classNames from 'classnames';
-import logo from '../../assets/logo.png';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,11 +53,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <div className="mr-2 text-primary-700">
-              <img
-                src={logo}
-                alt="logo"
-                className="h-auto max-h-32 w-auto"
-              />
+             <img src="/logo.png" alt="Logo Lufer" className="h-auto max-h-32 w-auto" />
             </div>
           </Link>
 

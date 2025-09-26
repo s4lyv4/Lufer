@@ -10,11 +10,8 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <img
-                src="src\assets\logo.png"
-                alt="Lufer Logo"
-                className="h-20 rounded-full mr-4"
-              />
+              <img src="/logo.png" alt="Logo Lufer" className="h-20 rounded-full mr-4" />
+¿
             </div>
             <p className="text-primary-100 mb-6">
                Expertos en mangueras y repuestos industriales. Calidad, confianza y soluciones a tu medida.
