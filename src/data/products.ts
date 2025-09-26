@@ -6,6 +6,7 @@ import automotriz from "../assets/automotriz.jpg";
 import automotriz_2 from "../assets/automotriz-2.jpg";
 import conectores from "../assets/Conectores.jpg";
 import tubo from "../assets/tubo.png";
+import mangueraHidraulica from "../assets/manguera hidraulica.jpg";
 
 export const properties: Property[] = [
   {
@@ -14,7 +15,7 @@ export const properties: Property[] = [
     description: "Contamos con mangueras hidráulicas de alta calidad, ideales para trabajos exigentes que requieren resistencia y durabilidad. Son perfectas para maquinaria pesada, sistemas hidráulicos industriales, agrícolas o automotrices. Nuestras mangueras están reforzadas y soportan altas presiones, lo que garantiza un rendimiento confiable incluso en condiciones extremas. Además, ofrecemos diferentes medidas y tipos según tus necesidades, con asesoría personalizada para ayudarte a elegir la más adecuada.\n\n 📦 Disponibilidad inmediata y servicio a domicilio.",
     productType: "mangueras",
     listingType: "sale",
-    mainImage: "https://th.bing.com/th/id/R.0e7b3d48d1a19b20bcb73020535c7b94?rik=KsH4DIQPWkKHlQ&riu=http%3a%2f%2fwww.morohidraulica.com.ar%2fwp-content%2fuploads%2f2019%2f05%2fRubro-1-1600-x-1080.jpg&ehk=DtspBexK9GmlOaQZ3RK3iLYYVGB9bOSAuYMAFiPmdvg%3d&risl=&pid=ImgRaw&r=0",
+    mainImage:mangueraHidraulica, 
     images: [
       " https://http2.mlstatic.com/D_NQ_NP_614642-MLM31229756390_062019-W.jpg",
       "https://image.made-in-china.com/2f0j00litfuwVdYIka/SAE-J2064-Type-C-Air-Conditioning-Flexible-R134A-Hose.webp",

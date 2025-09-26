@@ -67,4 +67,10 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+  'bg-yellow-500/80',
+  'text-primary-700',
+  'decoration-accent-500',
+],
+
 };
