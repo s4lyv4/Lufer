@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, ShoppingCart, Briefcase ,MessageCircle } from 'lucide-react';
-import portfolioPdf from "../../assets/PORTAFOLIO 2025 MYR LUFER.pdf";
 import heroImage from '../../assets/background lufer.png';
 
 const HeroSection: React.FC = () => {
@@ -71,7 +70,7 @@ const HeroSection: React.FC = () => {
               <span>Nuestro Catalogo</span>
             </Link>
             <a
-              href={portfolioPdf}
+              href="/portafolio.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="backgrouncolor bg-yellow-600/70 bg-white/10 backdrop-blur-sm 
