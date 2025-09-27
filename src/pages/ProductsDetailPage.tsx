@@ -317,7 +317,7 @@ const PropertyDetailPage: React.FC = () => {
                 .map(similarProperty => (
                   <Link 
                     key={similarProperty.id}
-                    to={`/productos/${similarProperty.id}`}
+                    to={`/producto/${similarProperty.id}`}
                     className="flex flex-col items-center p-4 rounded-lg hover:bg-neutral-50 transition-transform transform hover:scale-105 hover:shadow-md"
                   >
                     <div className="w-60 h-40 flex-shrink-0 rounded-md overflow-hidden">

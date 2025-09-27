@@ -18,7 +18,7 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   return (
     <div className="card card-hover group">
       <div className="relative overflow-hidden">
-        <Link to={`/productos/${id}`}>
+        <Link to={`/producto/${property.id}`} >
           <div className="h-64 overflow-hidden">
             <img
               src={mainImage}

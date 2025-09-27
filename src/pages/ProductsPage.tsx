@@ -23,7 +23,7 @@ const PropertiesPage: React.FC = () => {
 const initialFilters: PropertyFilterType = {
   productType: queryParams.get("productType") || undefined,
   listingType: queryParams.get("listingType") || undefined,
-  search: queryParams.get("search") || undefined, // 👈 agregamos esto
+  search: queryParams.get("search") || undefined, 
 };
 
 
